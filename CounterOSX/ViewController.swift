@@ -33,6 +33,8 @@ class ViewController: NSViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        Result.font = NSFont.monospacedDigitSystemFontOfSize(144, weight: -1)
+        
     }
 
     override var representedObject: AnyObject? {

@@ -475,6 +475,7 @@
 				FA775CDD1C555C0C00C31F05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA775CDE1C555C0C00C31F05 /* Build configuration list for PBXNativeTarget "CounterOSXTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +484,7 @@
 				FA775CE01C555C0C00C31F05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA775CE11C555C0C00C31F05 /* Build configuration list for PBXNativeTarget "CounterOSXUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +493,7 @@
 				FA775CE31C555C0C00C31F05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

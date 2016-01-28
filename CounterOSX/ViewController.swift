@@ -12,6 +12,8 @@ class ViewController: NSViewController {
     
     @IBOutlet weak var Result: NSTextField!
 
+    @IBOutlet weak var Background: NSView!
+    
     var counter = 0
     
     @IBAction func Increment(sender: AnyObject) {
@@ -34,6 +36,8 @@ class ViewController: NSViewController {
 
         // Do any additional setup after loading the view.
         Result.font = NSFont.monospacedDigitSystemFontOfSize(144, weight: -1)
+        self.view.wantsLayer = true
+        Background.layer?.backgroundColor = NSColor.whiteColor().CGColor
         
     }
 

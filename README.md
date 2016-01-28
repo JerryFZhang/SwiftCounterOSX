@@ -2,11 +2,10 @@
 Counter for the purpose of learning Swift Programming Language V2.1.
 
 By doing this I learnt:
-- Cocoa
-- NSTextField
-- NSButton
-- NSFont
-
+- Displaying information using NSTextField.
+- Trigger an action using NSButton.
+- Change the font spacing to monospace using NSFont.
+- Set app background color using NSView.
 
 #Requirements
 Developed and tested under:

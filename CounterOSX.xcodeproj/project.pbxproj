@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA775CBA1C555C0C00C31F05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA775CB91C555C0C00C31F05 /* AppDelegate.swift */; };
+		FA775CBC1C555C0C00C31F05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA775CBB1C555C0C00C31F05 /* ViewController.swift */; };
+		FA775CBE1C555C0C00C31F05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA775CBD1C555C0C00C31F05 /* Assets.xcassets */; };
+		FA775CC11C555C0C00C31F05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA775CBF1C555C0C00C31F05 /* Main.storyboard */; };
+		FA775CCC1C555C0C00C31F05 /* CounterOSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA775CCB1C555C0C00C31F05 /* CounterOSXTests.swift */; };
+		FA775CD71C555C0C00C31F05 /* CounterOSXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA775CD61C555C0C00C31F05 /* CounterOSXUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA775CC81C555C0C00C31F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA775CAE1C555C0C00C31F05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA775CB51C555C0C00C31F05;
+			remoteInfo = CounterOSX;
+		};
+		FA775CD31C555C0C00C31F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA775CAE1C555C0C00C31F05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA775CB51C555C0C00C31F05;
+			remoteInfo = CounterOSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA775CB61C555C0C00C31F05 /* CounterOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CounterOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA775CB91C555C0C00C31F05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA775CBB1C555C0C00C31F05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA775CBD1C555C0C00C31F05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA775CC01C555C0C00C31F05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA775CC21C555C0C00C31F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA775CC71C555C0C00C31F05 /* CounterOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA775CCB1C555C0C00C31F05 /* CounterOSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterOSXTests.swift; sourceTree = "<group>"; };
+		FA775CCD1C555C0C00C31F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA775CD21C555C0C00C31F05 /* CounterOSXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterOSXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA775CD61C555C0C00C31F05 /* CounterOSXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterOSXUITests.swift; sourceTree = "<group>"; };
+		FA775CD81C555C0C00C31F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA775CB31C555C0C00C31F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA775CC41C555C0C00C31F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA775CCF1C555C0C00C31F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA775CAD1C555C0C00C31F05 = {
+			isa = PBXGroup;
+			children = (
+				FA775CB81C555C0C00C31F05 /* CounterOSX */,
+				FA775CCA1C555C0C00C31F05 /* CounterOSXTests */,
+				FA775CD51C555C0C00C31F05 /* CounterOSXUITests */,
+				FA775CB71C555C0C00C31F05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA775CB71C555C0C00C31F05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA775CB61C555C0C00C31F05 /* CounterOSX.app */,
+				FA775CC71C555C0C00C31F05 /* CounterOSXTests.xctest */,
+				FA775CD21C555C0C00C31F05 /* CounterOSXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA775CB81C555C0C00C31F05 /* CounterOSX */ = {
+			isa = PBXGroup;
+			children = (
+				FA775CB91C555C0C00C31F05 /* AppDelegate.swift */,
+				FA775CBB1C555C0C00C31F05 /* ViewController.swift */,
+				FA775CBD1C555C0C00C31F05 /* Assets.xcassets */,
+				FA775CBF1C555C0C00C31F05 /* Main.storyboard */,
+				FA775CC21C555C0C00C31F05 /* Info.plist */,
+			);
+			path = CounterOSX;
+			sourceTree = "<group>";
+		};
+		FA775CCA1C555C0C00C31F05 /* CounterOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA775CCB1C555C0C00C31F05 /* CounterOSXTests.swift */,
+				FA775CCD1C555C0C00C31F05 /* Info.plist */,
+			);
+			path = CounterOSXTests;
+			sourceTree = "<group>";
+		};
+		FA775CD51C555C0C00C31F05 /* CounterOSXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA775CD61C555C0C00C31F05 /* CounterOSXUITests.swift */,
+				FA775CD81C555C0C00C31F05 /* Info.plist */,
+			);
+			path = CounterOSXUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA775CB51C555C0C00C31F05 /* CounterOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA775CDB1C555C0C00C31F05 /* Build configuration list for PBXNativeTarget "CounterOSX" */;
+			buildPhases = (
+				FA775CB21C555C0C00C31F05 /* Sources */,
+				FA775CB31C555C0C00C31F05 /* Frameworks */,
+				FA775CB41C555C0C00C31F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CounterOSX;
+			productName = CounterOSX;
+			productReference = FA775CB61C555C0C00C31F05 /* CounterOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA775CC61C555C0C00C31F05 /* CounterOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA775CDE1C555C0C00C31F05 /* Build configuration list for PBXNativeTarget "CounterOSXTests" */;
+			buildPhases = (
+				FA775CC31C555C0C00C31F05 /* Sources */,
+				FA775CC41C555C0C00C31F05 /* Frameworks */,
+				FA775CC51C555C0C00C31F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA775CC91C555C0C00C31F05 /* PBXTargetDependency */,
+			);
+			name = CounterOSXTests;
+			productName = CounterOSXTests;
+			productReference = FA775CC71C555C0C00C31F05 /* CounterOSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA775CD11C555C0C00C31F05 /* CounterOSXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA775CE11C555C0C00C31F05 /* Build configuration list for PBXNativeTarget "CounterOSXUITests" */;
+			buildPhases = (
+				FA775CCE1C555C0C00C31F05 /* Sources */,
+				FA775CCF1C555C0C00C31F05 /* Frameworks */,
+				FA775CD01C555C0C00C31F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA775CD41C555C0C00C31F05 /* PBXTargetDependency */,
+			);
+			name = CounterOSXUITests;
+			productName = CounterOSXUITests;
+			productReference = FA775CD21C555C0C00C31F05 /* CounterOSXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA775CAE1C555C0C00C31F05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jerry Zhang";
+				TargetAttributes = {
+					FA775CB51C555C0C00C31F05 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					FA775CC61C555C0C00C31F05 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FA775CB51C555C0C00C31F05;
+					};
+					FA775CD11C555C0C00C31F05 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FA775CB51C555C0C00C31F05;
+					};
+				};
+			};
+			buildConfigurationList = FA775CB11C555C0C00C31F05 /* Build configuration list for PBXProject "CounterOSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA775CAD1C555C0C00C31F05;
+			productRefGroup = FA775CB71C555C0C00C31F05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA775CB51C555C0C00C31F05 /* CounterOSX */,
+				FA775CC61C555C0C00C31F05 /* CounterOSXTests */,
+				FA775CD11C555C0C00C31F05 /* CounterOSXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA775CB41C555C0C00C31F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA775CBE1C555C0C00C31F05 /* Assets.xcassets in Resources */,
+				FA775CC11C555C0C00C31F05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA775CC51C555C0C00C31F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA775CD01C555C0C00C31F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA775CB21C555C0C00C31F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA775CBC1C555C0C00C31F05 /* ViewController.swift in Sources */,
+				FA775CBA1C555C0C00C31F05 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA775CC31C555C0C00C31F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA775CCC1C555C0C00C31F05 /* CounterOSXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA775CCE1C555C0C00C31F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA775CD71C555C0C00C31F05 /* CounterOSXUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA775CC91C555C0C00C31F05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA775CB51C555C0C00C31F05 /* CounterOSX */;
+			targetProxy = FA775CC81C555C0C00C31F05 /* PBXContainerItemProxy */;
+		};
+		FA775CD41C555C0C00C31F05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA775CB51C555C0C00C31F05 /* CounterOSX */;
+			targetProxy = FA775CD31C555C0C00C31F05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA775CBF1C555C0C00C31F05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA775CC01C555C0C00C31F05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA775CD91C555C0C00C31F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA775CDA1C555C0C00C31F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA775CDC1C555C0C00C31F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CounterOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fengwei-Zhang.CounterOSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA775CDD1C555C0C00C31F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CounterOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fengwei-Zhang.CounterOSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA775CDF1C555C0C00C31F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CounterOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fengwei-Zhang.CounterOSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CounterOSX.app/Contents/MacOS/CounterOSX";
+			};
+			name = Debug;
+		};
+		FA775CE01C555C0C00C31F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CounterOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fengwei-Zhang.CounterOSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CounterOSX.app/Contents/MacOS/CounterOSX";
+			};
+			name = Release;
+		};
+		FA775CE21C555C0C00C31F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CounterOSXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fengwei-Zhang.CounterOSXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CounterOSX;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FA775CE31C555C0C00C31F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CounterOSXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fengwei-Zhang.CounterOSXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CounterOSX;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA775CB11C555C0C00C31F05 /* Build configuration list for PBXProject "CounterOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA775CD91C555C0C00C31F05 /* Debug */,
+				FA775CDA1C555C0C00C31F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA775CDB1C555C0C00C31F05 /* Build configuration list for PBXNativeTarget "CounterOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA775CDC1C555C0C00C31F05 /* Debug */,
+				FA775CDD1C555C0C00C31F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA775CDE1C555C0C00C31F05 /* Build configuration list for PBXNativeTarget "CounterOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA775CDF1C555C0C00C31F05 /* Debug */,
+				FA775CE01C555C0C00C31F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA775CE11C555C0C00C31F05 /* Build configuration list for PBXNativeTarget "CounterOSXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA775CE21C555C0C00C31F05 /* Debug */,
+				FA775CE31C555C0C00C31F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA775CAE1C555C0C00C31F05 /* Project object */;
+}

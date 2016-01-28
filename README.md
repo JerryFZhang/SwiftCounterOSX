@@ -1,4 +1,4 @@
-# SwiftWatchCounter
+# SwiftCounterOSX
 Counter for the purpose of learning Swift Programming Language V2.1.
 
 By doing this I learnt:

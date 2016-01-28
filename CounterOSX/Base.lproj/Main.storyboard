@@ -691,6 +691,16 @@
                                     <action selector="Increment:" target="XfG-lQ-9wD" id="snA-zh-eQx"/>
                                 </connections>
                             </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lPt-x3-Bmr">
+                                <rect key="frame" x="12" y="280" width="75" height="32"/>
+                                <buttonCell key="cell" type="push" title="Reset" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="9Ac-CX-Iq4">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="Reset:" target="XfG-lQ-9wD" id="gCP-WD-iA8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="JYl-i1-bi7" secondAttribute="bottom" constant="35" id="9Kf-Iw-9a7"/>
@@ -706,6 +716,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="Reset" destination="lPt-x3-Bmr" id="6zi-xm-heb"/>
                         <outlet property="Result" destination="2fn-3D-vMW" id="T3W-3V-kIe"/>
                     </connections>
                 </viewController>

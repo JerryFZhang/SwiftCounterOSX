@@ -22,6 +22,13 @@ class ViewController: NSViewController {
     }
     
     
+    @IBAction func Reset(sender: AnyObject) {
+        
+        counter = 0
+        Result.stringValue = String (counter)
+        NSLog("Reset")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -681,16 +681,6 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="JYl-i1-bi7">
-                                <rect key="frame" x="127" y="28" width="81" height="32"/>
-                                <buttonCell key="cell" type="push" title="Count!" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="OH0-nY-a4Z">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                                <connections>
-                                    <action selector="Increment:" target="XfG-lQ-9wD" id="snA-zh-eQx"/>
-                                </connections>
-                            </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lPt-x3-Bmr">
                                 <rect key="frame" x="12" y="280" width="75" height="32"/>
                                 <buttonCell key="cell" type="push" title="Reset" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="9Ac-CX-Iq4">
@@ -701,6 +691,16 @@
                                     <action selector="Reset:" target="XfG-lQ-9wD" id="gCP-WD-iA8"/>
                                 </connections>
                             </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="JYl-i1-bi7">
+                                <rect key="frame" x="127" y="28" width="81" height="32"/>
+                                <buttonCell key="cell" type="push" title="Count!" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="OH0-nY-a4Z">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="Increment:" target="XfG-lQ-9wD" id="snA-zh-eQx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="JYl-i1-bi7" secondAttribute="bottom" constant="35" id="9Kf-Iw-9a7"/>
@@ -709,9 +709,7 @@
                             <constraint firstItem="2fn-3D-vMW" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="ON3-Ie-PhQ"/>
                             <constraint firstItem="2fn-3D-vMW" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="SS2-Q1-Jt1"/>
                             <constraint firstItem="JYl-i1-bi7" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="c96-KD-tGS"/>
-                            <constraint firstItem="JYl-i1-bi7" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="133" id="s6j-C8-eTm"/>
                             <constraint firstAttribute="trailing" secondItem="2fn-3D-vMW" secondAttribute="trailing" constant="20" id="t4h-6s-Viq"/>
-                            <constraint firstAttribute="trailing" secondItem="JYl-i1-bi7" secondAttribute="trailing" constant="132" id="yZt-gk-Cdr"/>
                             <constraint firstAttribute="bottom" secondItem="2fn-3D-vMW" secondAttribute="bottom" constant="109" id="ygg-LD-kpk"/>
                         </constraints>
                     </view>

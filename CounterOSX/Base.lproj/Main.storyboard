@@ -673,9 +673,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="334" height="328"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qEW-ij-xOL">
-                                <rect key="frame" x="0.0" y="0.0" width="334" height="328"/>
-                            </customView>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="2fn-3D-vMW">
                                 <rect key="frame" x="18" y="109" width="298" height="170"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="0" id="ERk-V8-VeS">
@@ -719,7 +716,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="Background" destination="qEW-ij-xOL" id="1Wu-Ub-fhf"/>
+                        <outlet property="ParentView" destination="m2S-Jp-Qdl" id="wsV-DJ-ivp"/>
                         <outlet property="Reset" destination="lPt-x3-Bmr" id="6zi-xm-heb"/>
                         <outlet property="Result" destination="2fn-3D-vMW" id="T3W-3V-kIe"/>
                     </connections>

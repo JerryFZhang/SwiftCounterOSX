@@ -12,7 +12,8 @@ class ViewController: NSViewController {
     
     @IBOutlet weak var Result: NSTextField!
 
-    @IBOutlet weak var Background: NSView!
+    
+    @IBOutlet var ParentView: NSView!
     
     var counter = 0
     
@@ -21,6 +22,7 @@ class ViewController: NSViewController {
         counter++
         Result.stringValue = String(counter)
         NSLog("Incremented")
+
     }
     
     
@@ -35,17 +37,20 @@ class ViewController: NSViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
         Result.font = NSFont.monospacedDigitSystemFontOfSize(144, weight: -1)
         self.view.wantsLayer = true
-        Background.layer?.backgroundColor = NSColor.whiteColor().CGColor
-        
+        ParentView.layer?.backgroundColor = NSColor.whiteColor().CGColor
     }
 
     override var representedObject: AnyObject? {
         didSet {
         // Update the view, if already loaded.
         }
+     
     }
+    
+
 
 }
 

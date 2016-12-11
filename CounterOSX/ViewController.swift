@@ -19,10 +19,10 @@ class ViewController: NSViewController {
     var counter = 0
     //Record user interactions.
     
-    @IBAction func Increment(sender: AnyObject) {
+    @IBAction func Increment(_ sender: AnyObject) {
     
         //After the button was pressed, the method will be called.
-        counter++
+        counter += 1
         Result.stringValue = String(counter)
         //Update the label
         NSLog("Incremented")
@@ -30,7 +30,7 @@ class ViewController: NSViewController {
     }
     
     
-    @IBAction func Reset(sender: AnyObject) {
+    @IBAction func Reset(_ sender: AnyObject) {
       
         //After the reset button was pressed, the method will be called and the counter will be set to zero.
         counter = 0
@@ -44,11 +44,11 @@ class ViewController: NSViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        Result.font = NSFont.monospacedDigitSystemFontOfSize(144, weight: -1)
+        Result.font = NSFont.monospacedDigitSystemFont(ofSize: 144, weight: -1)
         // Set the font size to 144px, set the weight to thin and set the font type to monospaced.
         
         self.view.wantsLayer = true
-        ParentView.layer?.backgroundColor = NSColor.whiteColor().CGColor
+        ParentView.layer?.backgroundColor = NSColor.white.cgColor
         // Set the background color to white.
     }
 
